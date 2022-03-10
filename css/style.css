@@ -67,6 +67,10 @@ li {
 	color: #FF7C7C;
 }
 
+.menu__link.--active {
+	color: #FF7C7C;
+}
+
 .header__inner {
 	display: flex;
 	justify-content: space-between;
@@ -82,6 +86,10 @@ li {
 
 .inner__title, .inner__text {
 	margin-bottom: 40px;
+}
+
+.inner__title.--blog {
+	margin-bottom: 20px;
 }
 
 .inner__text {
@@ -137,6 +145,10 @@ li {
 	gap: 20px;
 }
 
+.posts__content--blog {
+	margin-bottom: 53px;
+}
+
 .posts__content-item {
 	padding: 24px;
 	background: #FFFFFF;
@@ -145,11 +157,24 @@ li {
 	margin-bottom: 32px;
 }
 
-.content-item__tilte {
+.posts__content-item.--blog {
+	padding: 35px 0;
+	box-shadow: none;
+	border-radius: initial;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.content-item__title {
 	margin-bottom: 17px;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 38px;
+}
+
+.content-item__title.--blog {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 44px;
 }
 
 .content-item__subtitle {
@@ -161,9 +186,19 @@ li {
 	line-height: 26px;
 }
 
+.content-item__subtitle.--blog {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+}
+
 .content-item__subtitle p:first-child {
 	padding-right: 26px;
 	border-right: 1px solid #000000;
+}
+
+.content-item__subtitle.--blog p:nth-child(2) {
+	color: #8695A4;
 }
 
 .content-item__subtitle p:nth-child(2) {
