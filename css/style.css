@@ -45,6 +45,11 @@ li {
 	margin-bottom: 140px;
 }
 
+.header__top.--blog,
+.header__top.--works {
+	margin-bottom: 100px;
+}
+
 .menu__list {
 	display: flex;
 	justify-content: flex-end;
@@ -88,7 +93,8 @@ li {
 	margin-bottom: 40px;
 }
 
-.inner__title.--blog {
+.inner__title.--blog,
+.inner__title.--works {
 	margin-bottom: 20px;
 }
 
@@ -128,8 +134,8 @@ li {
 	align-items: center;
 }
 
-.posts__tilte,
-.works__tilte {
+.posts__title,
+.works__title {
 	font-size: 22px;
 	line-height: 60px;
 	font-weight: normal;
@@ -208,6 +214,10 @@ li {
 
 .works__content {
 	margin-bottom: 83px;
+}
+
+.works__content.--blog {
+	margin-bottom: 58px;
 }
 
 .works__content-item {
